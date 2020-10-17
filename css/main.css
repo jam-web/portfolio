@@ -1,0 +1,216 @@
+/******* BASE STYLES ******/
+html {
+    height: auto;
+
+}
+
+body {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+#portfolio {
+    height: auto;
+}
+
+#about {
+    height: 600px;
+}
+
+#contact {
+    height: 600px;
+}
+
+/****** GRID ******/
+.full-width {
+    margin:  0 auto;
+     width:  1200px;
+}
+
+.half-width {
+    float:  left;
+    width:  600px;
+}
+
+.third-width {
+    float:  left;
+    width:  400px;
+}
+
+/*****Header*****/
+
+header {
+    background:  url('../img/hero.png');
+    background-size: cover;
+    height: 800px;
+}
+
+header nav {
+    float: right;
+    margin: 10px;
+}
+
+header nav ul {
+    clear: both;
+    margin: 0;
+    padding: 0 150px 0 0;
+}
+
+header nav ul li {
+    color: #9ACD32;;
+    display: inline;
+    font-size: 24px;
+    margin: 10px;
+    font-weight: 700;
+    overflow: auto;
+}
+
+header nav ul li a {
+    color: #9ACD32;
+    text-decoration: none;
+}
+
+header h1 {
+    color: #bdbf09;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 0;
+    padding: 300px 0 65px 65px;
+    text-align: center;
+}
+
+header p {
+    color: #087e8b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    margin: 0;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+/****** PORTFOLIO ******/
+#portfolio {
+    background-color: #FFFFFF;
+    clear: both;
+    color: #087e8b;
+    overflow: auto;
+}
+
+#portfolio h2 {
+    color:  #095156;
+    font-size:  36px;
+    font-weight: bold;
+    margin: 25px 0;
+    text-align: center;
+}
+
+#portfolio .img-box {
+    border-radius: 0;
+    margin:75px 50px 25px 175px;
+    padding-bottom: 30px;
+    width: 50%;
+}
+
+#portfolio .text-box {
+    margin: 0;
+    padding-left: 150px;
+    padding-bottom: 210px;
+    width: 50%;
+}
+
+#portfolio .text-box h3 {
+    color:  #095156;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 100px;
+    padding-left: 75px;
+    text-align: left;
+}
+
+#portfolio .text-box p {
+    color:  #095156;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: 75px;
+    padding: 0;
+}
+
+/****** ABOUT ******/
+#about .full-width {
+    padding:  115px 0;
+}
+
+#about {
+    background-color: #087e8b;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+#about h2 {
+    font-size:  36px;
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about img  {
+    border-radius: 50%;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+#about p {
+    color:  #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 50px;
+}
+
+/******FOOTER******/
+
+#contact .full-width {
+    padding:  115px 0;
+}
+
+ #contact {
+    background-color: #095156;
+}
+
+#contact h2 {
+    color:  #FFFFFF;
+    font-size:  36px;
+    font-weight: 700;
+    line-height: 1px;
+    margin: 20px 0;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+#contact h3 {
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px; 
+    font-weight: 700;
+    margin: 20px 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+#contact p {
+    color:  #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size:  18px;
+    font-weight:  400;
+    text-align: center;
+}
+
+#contact img {
+    margin: 20px 0;
+    padding-left: 50px;
+    padding-bottom: 75px;
+    text-align: center;
+}
